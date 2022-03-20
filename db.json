@@ -1,14 +1,12 @@
 [
   {
-    "userId": 1,
     "id": 1,
-    "title": "delectus aut autem",
-    "completed": false
+    "name": "delectus aut autem",
+    "status": false
   },
   {
-    "userId": 10,
-    "id": 200,
-    "title": "ipsam aperiam voluptates qui",
-    "completed": false
+    "id": 2,
+    "name": "ipsam aperiam voluptates qui",
+    "status": false
   }
 ]

@@ -8,7 +8,7 @@ import {
 } from 'react-native';
 import { IMAGE_PATH } from '../costants';
 import { GlobalContext } from '../context/global';
-import Valuation from '../components/movie/valuation';
+import Valuation from '../components/movie/Valutation';
 import { useDispatch, useSelector } from 'react-redux';
 import { TouchableOpacity } from 'react-native-web';
 import AddFavoriteButton from '../components/buttons/AddFavoriteButton';

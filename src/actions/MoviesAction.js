@@ -40,12 +40,10 @@ export function getLatestMovies(sortBy = null) {
           type: GET_LATEST_MOVIES,
           payload: res.data.results,
         });
-      } else {
-        console.log('Unable to fetch');
       }
     };
   } catch (error) {
-    // Add custom logic to handle errors
+    console.log('Errore')
   }
 };
 

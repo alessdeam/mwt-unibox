@@ -3,12 +3,11 @@ import { View, StyleSheet } from 'react-native';
 import MovieCard from './MovieCard';
 import { SafeAreaView, TextInput, TouchableOpacity } from 'react-native-web';
 import { useDispatch, useSelector } from 'react-redux';
-import { getMovies, addFavorite, removeFavorite } from '../../actions/MoviesAction';
+import { getMovies } from '../../actions/MoviesAction';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 export default function SearchedList({ navigation }) {
   const movies = useSelector(state => state.movieBox.movies);
-  const favorites = useSelector(state => state.movieBox.favorites);
   const dispatch = useDispatch();
   const [text, onChangeText] = React.useState('');
   const [searched, setCheck] = useState(false);

@@ -4,7 +4,7 @@ import { Text, StyleSheet, View } from 'react-native';
 
 import Icon from 'react-native-vector-icons/FontAwesome';
 
-const ShipAction = ({
+const Valutation = ({
   styleContainer = {},
   iconName = 'star',
   styleIcon = {},
@@ -24,7 +24,7 @@ const ShipAction = ({
   );
 };
 
-export default ShipAction;
+export default Valutation;
 
 const styles = StyleSheet.create({
   container: {

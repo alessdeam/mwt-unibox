@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { View, Image, Text, StyleSheet } from 'react-native';
 import { GlobalContext } from '../../context/global';
-import Valuation from './valuation';
+import Valuation from './Valutation';
 import { IMAGE_PATH } from '../../costants';
 import { TouchableOpacity } from 'react-native-web';
 import AddFavoriteButton from '../buttons/AddFavoriteButton';
